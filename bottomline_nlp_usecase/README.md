@@ -3,8 +3,11 @@ Bottomline_NLP_Usecase
 
 Problem Statement:
 -----
-Social Network Qwerty deals with a lot of data pertaining to user chats, comments and feedback over several platforms and forums. One of the aims for the company is to separate out users who give constructive comments from those who spam. There are several types of spam, some of which are hate speech, obscenity and insults.
+Social Network Qwerty deals with a lot of data pertaining to user chats, comments and feedback over several platforms and forums. One of the aims for the company is to separate out users who give constructive comments from those who spam. 
+
+There are several types of spam, some of which are hate speech, obscenity and insults.
 Qwerty wants to use Deep Learning technique to separate out spam feedback and concentrate only on the constructive ones to improve customer satisfaction as well as brand value of the company.
+
 Use the attached data-set to develop a deep learning model to help Qwerty achieve its objectives, stating (a) architecture, (b) loss function and (c) performance metric you decide to choose and your reasons for choosing them
 
 Project Organization
