@@ -12,6 +12,9 @@ class Preprocessor(object):
 
     @staticmethod
     def remove_dates(comment):
+        """
+        Removes date time and time zone information from the comments
+        """
         comment = comment.lower()
         comment = re.sub(
             """(jan|january|feb|february|mar|march|apr|april|may|jun|june|jul|july|aug|august|sep|september|oct|october|nov|november|dec|december)\s\d{1,2}\s\d{2,4}""",
@@ -84,6 +87,6 @@ class Preprocessor(object):
         return (clean_sent)
 
 
-if __name__=='__main__':
+if __name__ == '__main__':
     pp = Preprocessor()
     print(pp.clean_text("*a-hem*... ""nigger nigger nigger, nigger nigger, nigger nigger."" Thank you. \n"))
